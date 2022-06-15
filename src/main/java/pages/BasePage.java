@@ -1,11 +1,8 @@
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import org.openqa.selenium.JavascriptExecutor;
+package pages;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import javax.swing.*;
 
 public class BasePage {
 
@@ -31,4 +28,5 @@ public class BasePage {
      public Actions getActions() {
           return actions;
      }
+
 }

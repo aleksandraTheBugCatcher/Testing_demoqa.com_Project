@@ -1,17 +1,16 @@
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+package pages;
+
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class ElementsPage extends BasePage{
-    private By textBox = By.xpath("//*[@id=\"item-0\"]");
+public class ElementsPage extends BasePage {
+    private By textBox = By.id("item-0");
     private By fullnameField = By.id("userName");
     private By email = By.id("userEmail");
-    private By currentAddress = By.xpath("currentAddress");
+    private By currentAddress = By.id("currentAddress");
     private By permanentAddress = By.id("permanentAddress");
     private By submitBtn = By.id("submit");
     private By outputMessage = By.xpath("//*[@id=\"output\"]/div");
@@ -30,6 +29,8 @@ public class ElementsPage extends BasePage{
     public WebElement getFullnameField() {return getDriver().findElement(fullnameField);}
 
     public WebElement getEmail() {return getDriver().findElement(email);}
+
+    public WebElement getCurrentAddress(){return getDriver().findElement(currentAddress);}
 
     public WebElement getPermanentAddress() {return getDriver().findElement(permanentAddress);}
 
@@ -51,7 +52,7 @@ public class ElementsPage extends BasePage{
 
     public void enterEmail(String userEmail){getEmail().sendKeys(userEmail);}
 
-    public void enterCurrentAddress(String usersCurrentAddress){getFullnameField().sendKeys(usersCurrentAddress);};
+    public void enterCurrentAddress(String usersCurrentAddress){getCurrentAddress().sendKeys(usersCurrentAddress);};
 
     public void enterPermanentAddress(String usersPermanentAddress){getPermanentAddress().sendKeys(usersPermanentAddress);};
 

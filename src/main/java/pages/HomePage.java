@@ -1,12 +1,10 @@
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+package pages;
+
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-
-public class HomePage extends BasePage{
+public class HomePage extends BasePage {
 
     private By header = By.xpath("//*[@id=\"app\"]/header/a");
     private By elementsCard= By.xpath("/html/body/div[2]/div/div/div[2]/div/div[1]");
@@ -56,7 +54,9 @@ public class HomePage extends BasePage{
 
     public void formsCardClick(){getActions().moveToElement(getFormsCard()).click().perform();}
 
-    public void alertsCardClick(){getActions().moveToElement(getAlertsCard()).click().perform();}
+    public void alertsCardClick(){JavascriptExecutor jsExecutor = (JavascriptExecutor) getDriver();
+        jsExecutor.executeScript("window.scrollBy(0,500)");
+        getAlertsCard().click();}
 
     public void widgetsCardClick(){getActions().moveToElement(getWidgetsCard()).click().perform();}
 

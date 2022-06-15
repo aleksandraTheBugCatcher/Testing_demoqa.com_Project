@@ -1,10 +1,11 @@
+package tests;
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.time.Duration;
 
-public class ElementsPageTests extends BaseTest{
+public class ElementsPageTests extends BaseTest {
 
     @Test (priority = 1) //Verify that a user can be created in Text Box section with valid inputs
     public void verifyThatUserIsCreatedWithValidInputs(){

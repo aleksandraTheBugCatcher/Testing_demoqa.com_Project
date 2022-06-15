@@ -5,16 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af1f20c6-d5e5-4491-a0df-bed19e236e20" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ElementsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ElementsPageTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AlertsCardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BookStorePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/BookStorePageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ElementsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ElementsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ElementsPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/ElementsPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ElementsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ElementsPageTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomePage.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,10 +54,10 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunManager" selected="TestNG.ElementsPageTests">
-    <configuration name="ElementsPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BookStorePageTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testing_demoqa.com_Project" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ElementsPageTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.BookStorePageTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -61,11 +65,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElementsPageTests.testRadioBtn" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BookStorePageTests.verifyThatBooksListSizeIsEight" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testing_demoqa.com_Project" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ElementsPageTests" />
-      <option name="METHOD_NAME" value="testRadioBtn" />
+      <option name="MAIN_CLASS_NAME" value="tests.BookStorePageTests" />
+      <option name="METHOD_NAME" value="verifyThatBooksListSizeIsEight" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookStorePageTests.verifyThatNewUserIsCreatedWithValidInputs" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing_demoqa.com_Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="tests.BookStorePageTests" />
+      <option name="METHOD_NAME" value="verifyThatNewUserIsCreatedWithValidInputs" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElementsPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing_demoqa.com_Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="tests.ElementsPageTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElementsPageTests.verifyThatUserIsCreatedWithValidInputs" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing_demoqa.com_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ElementsPageTests" />
+      <option name="METHOD_NAME" value="verifyThatUserIsCreatedWithValidInputs" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -76,7 +121,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.ElementsPageTests" />
-        <item itemvalue="TestNG.ElementsPageTests.testRadioBtn" />
+        <item itemvalue="TestNG.ElementsPageTests.verifyThatUserIsCreatedWithValidInputs" />
+        <item itemvalue="TestNG.BookStorePageTests" />
+        <item itemvalue="TestNG.BookStorePageTests.verifyThatNewUserIsCreatedWithValidInputs" />
+        <item itemvalue="TestNG.BookStorePageTests.verifyThatBooksListSizeIsEight" />
       </list>
     </recent_temporary>
   </component>
