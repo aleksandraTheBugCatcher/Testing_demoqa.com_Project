@@ -5,20 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af1f20c6-d5e5-4491-a0df-bed19e236e20" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AlertsCardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BookStorePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tests/BookStorePageTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ProfilePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ElementsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ElementsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ElementsPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/ElementsPageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BasePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ElementsPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ElementsPageTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BookStorePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BookStorePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ElementsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ElementsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/BookStorePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/BookStorePageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/ElementsPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/ElementsPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/ElementsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/ElementsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/ElementsPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/ElementsPageTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +50,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="TestNG.ElementsPageTests">
+  <component name="RunManager" selected="TestNG.BookStorePageTests">
     <configuration name="BookStorePageTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testing_demoqa.com_Project" />
       <option name="PACKAGE_NAME" value="" />
@@ -120,9 +117,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BookStorePageTests" />
         <item itemvalue="TestNG.ElementsPageTests" />
         <item itemvalue="TestNG.ElementsPageTests.verifyThatUserIsCreatedWithValidInputs" />
-        <item itemvalue="TestNG.BookStorePageTests" />
         <item itemvalue="TestNG.BookStorePageTests.verifyThatNewUserIsCreatedWithValidInputs" />
         <item itemvalue="TestNG.BookStorePageTests.verifyThatBooksListSizeIsEight" />
       </list>

@@ -2,6 +2,7 @@ package pages;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
@@ -68,7 +69,12 @@ public class ElementsPage extends BasePage {
 
     public void clickYesBtn(){getActions().moveToElement(getYesBtn()).click().perform();}
 
-    public void clickImpressiveBtn(){getActions().moveToElement(getImpressiveBtn()).click().perform();}
+    public boolean isYesBtnSelected(){return getYesBtn().isSelected();}
+
+    public void clickImpressiveBtn(){
+        getActions().moveToElement(getImpressiveBtn()).click().perform();}
+
+    public boolean isImpressiveBtnSelected(){return getImpressiveBtn().isSelected();}
 
     public boolean isNoBtnEnabled(){return getDriver().findElement(noBtn).isEnabled();}
 

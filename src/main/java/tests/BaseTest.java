@@ -7,9 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import pages.BookStorePage;
-import pages.ElementsPage;
-import pages.HomePage;
+import pages.*;
 
 import java.time.Duration;
 
@@ -20,6 +18,8 @@ public class BaseTest {
     private HomePage homePage;
     private ElementsPage elementsPage;
     private BookStorePage bookStorePage;
+    private LoginPage loginPage;
+    private ProfilePage profilePage;
 
     public WebDriver getDriver() {
         return driver;
@@ -43,6 +43,10 @@ public class BaseTest {
 
     public BookStorePage getBookStorePage() {return bookStorePage;}
 
+    public LoginPage getLoginPage(){return loginPage;}
+
+    public ProfilePage getProfilePage(){return profilePage;}
+
     @BeforeClass
     public void beforeClass(){
         System.setProperty("webdriver.chrome.driver", "C:\\chromedriver_win32\\chromedriver.exe");
@@ -52,6 +56,8 @@ public class BaseTest {
         homePage = new HomePage(driver,driverWait,actions);
         elementsPage = new ElementsPage(driver,driverWait, actions);
         bookStorePage = new BookStorePage(driver,driverWait,actions);
+        loginPage = new LoginPage(driver,driverWait,actions);
+        profilePage = new ProfilePage(driver,driverWait,actions);
 
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
@@ -59,10 +65,6 @@ public class BaseTest {
         driver.navigate().to("https://demoqa.com/");
     }
 
-   @BeforeMethod
-    public void beforeMethod() {
-       homePage.headerClick();
-   }
 
     @AfterClass
     public void afterClass(){
