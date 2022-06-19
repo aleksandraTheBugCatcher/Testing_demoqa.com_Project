@@ -5,17 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af1f20c6-d5e5-4491-a0df-bed19e236e20" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ProfilePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/common/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/elements/ButtonsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/elements/CheckBoxPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/elements/RadioButtonPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/elements/TextBoxPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/elements/WebTablesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/forms/FormsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/forms/PracticeFormPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/elements/ButtonsPageTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/elements/CheckBoxPageTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/elements/ElementsPageTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/elements/WebTablesPageTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/forms/PractiseFormPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BookStorePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BookStorePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ElementsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ElementsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AlertsCardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/alerts/AlertsCardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BookStorePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/bookstore/BookStorePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ElementsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/elements/ElementsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/common/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/bookstore/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/bookstore/ProfilePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tests/BookStorePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/BookStorePageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tests/ElementsPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/ElementsPageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/ElementsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/ElementsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tests/ElementsPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/ElementsPageTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/BookStorePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/bookstore/BookStorePageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/ElementsPageTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/AlertsCardPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/BookStorePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/ElementsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/ProfilePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/BookStorePageTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/ElementsPageTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,64 +73,87 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="TestNG.BookStorePageTests">
-    <configuration name="BookStorePageTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Testing_demoqa.com_Project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="tests.BookStorePageTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookStorePageTests.verifyThatBooksListSizeIsEight" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Testing_demoqa.com_Project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="tests.BookStorePageTests" />
-      <option name="METHOD_NAME" value="verifyThatBooksListSizeIsEight" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookStorePageTests.verifyThatNewUserIsCreatedWithValidInputs" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Testing_demoqa.com_Project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="tests.BookStorePageTests" />
-      <option name="METHOD_NAME" value="verifyThatNewUserIsCreatedWithValidInputs" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElementsPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Testing_demoqa.com_Project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="tests.ElementsPageTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElementsPageTests.verifyThatUserIsCreatedWithValidInputs" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.PractiseFormPageTest">
+    <configuration name="ButtonsPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testing_demoqa.com_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.elements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ElementsPageTests" />
-      <option name="METHOD_NAME" value="verifyThatUserIsCreatedWithValidInputs" />
+      <option name="MAIN_CLASS_NAME" value="tests.elements.ButtonsPageTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PractiseFormPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing_demoqa.com_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pages.forms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.forms" />
+      <option name="MAIN_CLASS_NAME" value="tests.forms.PractiseFormPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTablesPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing_demoqa.com_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.elements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.elements.WebTablesPageTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTablesPageTests.verifySearchFunctionality" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing_demoqa.com_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.elements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.elements.WebTablesPageTests" />
+      <option name="METHOD_NAME" value="verifySearchFunctionality" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTablesPageTests.verifyThatLastRecordIsDeleted" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing_demoqa.com_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.elements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.elements" />
+      <option name="MAIN_CLASS_NAME" value="tests.elements.WebTablesPageTests" />
+      <option name="METHOD_NAME" value="verifyThatLastRecordIsDeleted" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -117,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.BookStorePageTests" />
-        <item itemvalue="TestNG.ElementsPageTests" />
-        <item itemvalue="TestNG.ElementsPageTests.verifyThatUserIsCreatedWithValidInputs" />
-        <item itemvalue="TestNG.BookStorePageTests.verifyThatNewUserIsCreatedWithValidInputs" />
-        <item itemvalue="TestNG.BookStorePageTests.verifyThatBooksListSizeIsEight" />
+        <item itemvalue="TestNG.PractiseFormPageTest" />
+        <item itemvalue="TestNG.WebTablesPageTests.verifyThatLastRecordIsDeleted" />
+        <item itemvalue="TestNG.WebTablesPageTests" />
+        <item itemvalue="TestNG.ButtonsPageTests" />
+        <item itemvalue="TestNG.WebTablesPageTests.verifySearchFunctionality" />
       </list>
     </recent_temporary>
   </component>

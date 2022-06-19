@@ -6,8 +6,13 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import pages.*;
+import pages.bookstore.BookStorePage;
+import pages.bookstore.LoginPage;
+import pages.bookstore.ProfilePage;
+import pages.common.HomePage;
+import pages.elements.*;
+import pages.forms.PracticeFormPage;
+import pages.forms.FormsPage;
 
 import java.time.Duration;
 
@@ -17,31 +22,42 @@ public class BaseTest {
     private Actions actions;
     private HomePage homePage;
     private ElementsPage elementsPage;
+    private TextBoxPage textBoxPage;
+    private RadioButtonPage radioButtonPage;
+    private CheckBoxPage checkBoxPage;
+    private WebTablesPage webTablesPage;
+    private ButtonsPage buttonsPage;
+    private FormsPage formsPage;
+    private PracticeFormPage practiceFormPage;
     private BookStorePage bookStorePage;
     private LoginPage loginPage;
     private ProfilePage profilePage;
 
-    public WebDriver getDriver() {
-        return driver;
-    }
+    public WebDriver getDriver(){return driver;}
 
-    public WebDriverWait getDriverWait() {
-        return driverWait;
-    }
+    public WebDriverWait getDriverWait(){return driverWait;}
 
-    public Actions getActions() {
-        return actions;
-    }
+    public Actions getActions(){return actions;}
 
-    public HomePage getHomePage() {
-        return homePage;
-    }
+    public HomePage getHomePage(){return homePage;}
 
-    public ElementsPage getElementsPage() {
-        return elementsPage;
-    }
+    public ElementsPage getElementsPage(){return elementsPage;}
 
-    public BookStorePage getBookStorePage() {return bookStorePage;}
+    public TextBoxPage getTextBoxPage(){return textBoxPage;}
+
+    public RadioButtonPage getRadioButtonPage(){return radioButtonPage;}
+
+    public CheckBoxPage getCheckBoxPage(){return checkBoxPage;}
+
+    public WebTablesPage getWebTablesPage(){return webTablesPage;}
+
+    public ButtonsPage getButtonsPage(){return buttonsPage;}
+
+    public FormsPage getFormsPage() {return formsPage;}
+
+    public PracticeFormPage getPracticeFormPage(){return practiceFormPage;}
+
+    public BookStorePage getBookStorePage(){return bookStorePage;}
 
     public LoginPage getLoginPage(){return loginPage;}
 
@@ -55,6 +71,13 @@ public class BaseTest {
         actions = new Actions(driver);
         homePage = new HomePage(driver,driverWait,actions);
         elementsPage = new ElementsPage(driver,driverWait, actions);
+        textBoxPage = new TextBoxPage(driver,driverWait,actions);
+        radioButtonPage = new RadioButtonPage(driver,driverWait,actions);
+        checkBoxPage = new CheckBoxPage(driver,driverWait,actions);
+        webTablesPage = new WebTablesPage(driver,driverWait,actions);
+        buttonsPage = new ButtonsPage(driver,driverWait,actions);
+        formsPage = new FormsPage(driver,driverWait,actions);
+        practiceFormPage = new PracticeFormPage(driver,driverWait,actions);
         bookStorePage = new BookStorePage(driver,driverWait,actions);
         loginPage = new LoginPage(driver,driverWait,actions);
         profilePage = new ProfilePage(driver,driverWait,actions);
